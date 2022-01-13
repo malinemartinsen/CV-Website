@@ -1,0 +1,41 @@
+body {
+  font-family: "raleway";
+  color: black;
+}
+
+.navbar {
+  background-color: lightcoral;
+  flex-direction: column;
+}
+
+.nav-link {
+  color: black;
+  font-family: "raleway";
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.navbar-toggler {
+  color: black;
+}
+
+.nav-link:hover {
+  text-shadow: 0 2px 2px rgba(250, 248, 248, 0.123);
+}
+
+#about {
+  margin: 7% 15%;
+}
+
+.about-picture {
+  width: 65%;
+  height: auto;
+  margin: 5% 0;
+  box-shadow: 0 3px 3px rgba(0, 0.2, 0, 0.2);
+}
+
+.title {
+  padding-top: 20%;
+  font-size: 4.5rem;
+  font-weight: 300;
+}
