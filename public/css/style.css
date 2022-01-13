@@ -20,10 +20,6 @@ body {
   padding: 10px 3%;
 }
 
-.navbar-toggler {
-  color: black;
-}
-
 .nav-link:hover {
   text-shadow: 0 2px 2px rgba(250, 248, 248, 0.123);
 }
@@ -32,8 +28,12 @@ body {
   margin: 7% 15%;
 }
 
+.about-box {
+  text-align: center;
+}
+
 .about-picture {
-  width: 65%;
+  width: 70%;
   height: auto;
   margin: 5% 0;
   box-shadow: 0 3px 3px rgba(0, 0.2, 0, 0.2);
@@ -41,6 +41,8 @@ body {
 
 .title {
   padding-top: 20%;
-  font-size: 4.5rem;
-  font-weight: 300;
+  font-size: 6rem;
+  font-weight: 200;
+  letter-spacing: -10;
+  line-height: 1.5;
 }
