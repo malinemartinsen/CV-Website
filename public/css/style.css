@@ -56,7 +56,7 @@ body {
 
 /* Feature box */
 #features {
-  padding: 5% 10%;
+  padding: 5% 10% 10% 10%;
   background-color: #ffffff;
 }
 
@@ -93,4 +93,48 @@ body {
 
 .icon:hover {
   color: rgb(167, 89, 89);
+}
+
+.diploma-title {
+  padding-top: 15px;
+}
+
+.on-going {
+  font-style: italic;
+  font-weight: 200;
+  color: gray;
+}
+
+.certificate-link:hover {
+  text-decoration: none;
+  color: black;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-link,
+.certificate-link:active,
+.certificate-link:visited,
+.certificate-link:focus {
+  text-decoration: none;
+  color: black;
+}
+
+/* Footer */
+#footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  padding: 7% 15%;
+  text-align: center;
+  color: white;
+  background-color: rgba(240, 128, 128, 0.493);
+}
+
+.social-icon,
+.social-icon:visited,
+.social-icon:focus {
+  color: white;
+}
+
+.social-icon:hover {
+  color: rgba(240, 128, 128, 0.493);
 }
