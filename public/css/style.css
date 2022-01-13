@@ -1,7 +1,11 @@
+/* General styles */
+
 body {
   font-family: "raleway";
   color: black;
 }
+
+/* Navigation bar */
 
 .navbar {
   background-color: white;
@@ -18,11 +22,14 @@ body {
   font-size: 1rem;
   text-transform: uppercase;
   padding: 10px 3%;
+  letter-spacing: -10;
 }
 
 .nav-link:hover {
   text-shadow: 0 2px 2px rgba(250, 248, 248, 0.123);
 }
+
+/* Title and picture */
 
 #about {
   margin: 7% 15%;
@@ -45,4 +52,45 @@ body {
   font-weight: 200;
   letter-spacing: -10;
   line-height: 1.5;
+}
+
+/* Feature box */
+#features {
+  padding: 5% 10%;
+  background-color: #ffffff;
+}
+
+.feature-title {
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 7% 0;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 3%;
+}
+
+.feature-btn {
+  font-weight: 200;
+  background-color: rgba(250, 248, 248, 0.123);
+  color: grey;
+  border: rgba(240, 128, 128, 0.493) solid 1px;
+}
+
+.feature-btn:hover,
+.feature-btn:active,
+.feature-btn:focus,
+.feature-btn:visited {
+  background-color: rgba(240, 128, 128, 0.493);
+  border: none;
+}
+
+.icon {
+  color: rgb(240, 128, 128);
+  padding: 7% 15%;
+}
+
+.icon:hover {
+  color: rgb(167, 89, 89);
 }
