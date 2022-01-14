@@ -1,18 +1,15 @@
 /* General styles */
 
 body {
-  font-family: "raleway";
+  font-family: "raleway", sans-serif;
   color: black;
 }
 
+/* General h1 that does not apply to all h1 */
 .body-title {
   text-align: center;
   font-size: 3.5rem;
   padding: 7% 0;
-}
-
-.sub-title {
-  color: rgb(250, 212, 221);
 }
 
 /* Navigation bar */
@@ -53,9 +50,6 @@ body {
 
 #title {
   margin: 7% 15%;
-}
-
-.title-box {
   text-align: center;
 }
 
@@ -72,6 +66,132 @@ body {
   font-weight: 300;
   letter-spacing: -10;
   line-height: 1.5;
+}
+
+/* About */
+
+.about-container {
+  padding: 7% 15%;
+}
+
+.about-box {
+  padding: 5% 0;
+}
+
+.about-picture {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+  padding: 0 5%;
+}
+
+.about-p {
+  font-family: "roboto", sans-serif;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.fun-fact {
+  font-family: "roboto", sans-serif;
+  color: grey;
+  font-style: italic;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.sub-title {
+  color: rgb(250, 212, 221);
+}
+
+/* Experience */
+#experience {
+  padding: 7% 15%;
+  background-color: rgba(240, 128, 128, 0.493);
+  color: black;
+}
+
+/* General styles accordion */
+.accordion {
+  margin-bottom: 5%;
+  color: black;
+}
+
+.accordion-body {
+  text-align: center;
+}
+
+.accordion-button,
+.accordion-button::after,
+.accordion-button:active,
+.accordion-button:visited,
+.accordion-button:not(.collapsed) {
+  color: inherit;
+  color: black;
+}
+
+.accordion-button:focus {
+  box-shadow: inherit;
+}
+
+.accordion-button:not(.collapsed)::after {
+  filter: brightness(0%);
+}
+
+.accordion-button:hover {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+/* Experience titles */
+
+.experience-subtitle {
+  padding: 25px 0 10px 0;
+}
+
+.experience-h3 {
+  font-size: 1.5rem;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.experience-h4 {
+  font-size: 1.3rem;
+  padding: 10px 0;
+}
+
+.experience-h5 {
+  font-size: 0.9rem;
+  color: grey;
+  padding: 0;
+  text-align: center;
+}
+
+/* Cards */
+.edu-link {
+  text-align: center;
+  text-decoration: none;
+  color: lightgray;
+}
+
+.edu-link:hover {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+.extra-credit {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: grey;
+  font-weight: 200;
+}
+
+.education1-card {
+  height: 490px;
+}
+
+.education2-card {
+  height: 230px;
 }
 
 /* Feature box */
@@ -158,147 +278,56 @@ body {
   color: white;
 }
 
-/* About */
+@media (max-width: 853px) {
+  /* General styles */
+  .body-title {
+    font-size: 3rem;
+    padding: 10% 0;
+  }
 
-.about-container {
-  padding: 7% 15%;
-}
+  /* About */
 
-.about-box {
-  padding: 5% 0;
-}
+  #about {
+    margin: 7% 0;
+  }
 
-.about-picture {
-  width: 100%;
-  height: auto;
-  border-radius: 100%;
-  padding: 0 5%;
-}
+  .about-picture {
+    padding: 10% 0;
+  }
 
-.about-p {
-  font-family: "roboto", sans-serif;
-  line-height: 1.5;
-  text-align: justify;
-}
+  .featurette-heading {
+    padding: 7% 0;
+  }
 
-.fun-fact {
-  font-family: "roboto", sans-serif;
-  color: grey;
-  font-style: italic;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  text-align: left;
-}
+  .about-p {
+    font-size: 0.9rem;
+  }
 
-/* Experience */
-#experience {
-  padding: 7% 15%;
-  background-color: rgba(240, 128, 128, 0.493);
-  color: white;
-}
+  .fun-fact {
+    font-size: 0.7rem;
+  }
 
-.experience-h3 {
-  font-size: 1.5rem;
-  padding: 10px 0;
-  text-align: center;
-}
+  /* Experience */
+  #experience {
+    padding: 10% 15%;
+  }
 
-.experience-h4 {
-  font-size: 1.3rem;
-  padding: 10px 0;
-}
+  .experience-subtitle {
+    padding: 10% 0;
+  }
 
-.experience-h5 {
-  font-size: 0.9rem;
-  color: grey;
-  padding: 0;
-  text-align: center;
-}
+  /* Feature and experience/education cards */
+  .card-body {
+    margin: 7%;
+  }
+  .list-group {
+    margin: 7%;
+  }
 
-.experience-subtitle {
-  padding: 25px 0 10px 0;
-}
+  /* Feature */
+  .responsive {
+    display: none;
+  }
 
-.accordion-body {
-  text-align: center;
-}
-
-.accordion-button,
-.accordion-button::after,
-.accordion-button:active,
-.accordion-button:visited {
-  color: black;
-}
-
-.accordion-button:focus {
-  box-shadow: inherit;
-}
-
-.accodion-button:not(.collapsed) {
-  color: inherit;
-  color: black;
-}
-
-.accodion-button:not(.collapsed)::after {
-  filter: brightness(0%);
-}
-
-.accordion-button:hover {
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  color: black;
-}
-
-.accordion {
-  color: black;
-  margin-bottom: 5%;
-}
-
-/* Cards */
-.card-list {
-  list-style: none;
-  text-decoration: none;
-  text-align: left;
-}
-
-.card-text {
-  text-align: left;
-  padding-bottom: 5px;
-  margin-bottom: 0;
-  font-weight: bold;
-}
-
-.edu-card {
-  width: 90%;
-  margin: 5%;
-  padding: 0;
-}
-
-.edu-link {
-  text-align: center;
-  text-decoration: none;
-  color: lightgray;
-}
-
-.edu-link:hover {
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  color: black;
-}
-
-.extra-credit {
-  font-size: 0.8rem;
-  font-style: italic;
-  color: grey;
-  font-weight: 200;
-}
-
-.education1-card {
-  height: 490px;
-}
-
-.education2-card {
-  height: 230px;
-}
-
-.employer {
-  font-style: bold;
+  /* Footer */
 }
