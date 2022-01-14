@@ -39,6 +39,16 @@ body {
   text-shadow: 0 2px 2px rgba(250, 248, 248, 0.123);
 }
 
+.navbar-toggler:focus {
+  box-shadow: inherit;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:active,
+.navbar-toggler:visited {
+  box-shadow: 0 0 1px 1px rgba(0, 0.1, 0.1, 0.123);
+}
+
 /* Title and picture */
 
 #title {
@@ -83,9 +93,9 @@ body {
 }
 
 .feature-btn:hover,
-.feature-btn:active,
 .feature-btn:focus,
-.feature-btn:visited {
+.feature-btn:active {
+  box-shadow: inherit;
   background-color: rgba(240, 128, 128, 0.493);
   border: none;
 }
@@ -134,13 +144,18 @@ body {
 }
 
 .social-icon,
-.social-icon:visited,
-.social-icon:focus {
+.social-icon:visited {
   color: white;
 }
 
 .social-icon:hover {
   color: rgba(240, 128, 128, 0.493);
+}
+
+.social-icon:focus,
+.social-icon:active {
+  box-shadow: inherit;
+  color: white;
 }
 
 /* About */
@@ -211,9 +226,21 @@ body {
 .accordion-button,
 .accordion-button::after,
 .accordion-button:active,
-.accordion-button:focus,
 .accordion-button:visited {
   color: black;
+}
+
+.accordion-button:focus {
+  box-shadow: inherit;
+}
+
+.accodion-button:not(.collapsed) {
+  color: inherit;
+  color: black;
+}
+
+.accodion-button:not(.collapsed)::after {
+  filter: brightness(0%);
 }
 
 .accordion-button:hover {

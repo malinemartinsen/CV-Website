@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Malin's CV page</title>
+    <title>CV van Malin</title>
     <link
       rel="icon"
       href="public/images/Screenshot 2022-01-13 at 13.52.07.png"
@@ -45,11 +45,12 @@
     ></script>
   </head>
   <body>
+    <section id="home"></section>
     <section id="navigation">
       <!-- Navbar-->
       <div class="container-fluid">
         <div class="navbar-background">
-          <nav class="navbar navbar-expand-lg navbar-dark">
+          <nav class="navbar fixed-top navbar-light bg-white">
             <button
               class="navbar-toggler"
               type="button"
@@ -61,13 +62,16 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#index.html">Home</a>
+                  <a class="nav-link" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#about">Over mij</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="experience.html">Ervaring</a>
+                  <a class="nav-link" href="#experience">Ervaring</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#features">Talen</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#footer">Contact</a>
@@ -86,5 +90,825 @@
         </div>
       </div>
     </section>
+
+    <!-- Title and picture -->
+    <section id="title">
+      <div class="row">
+        <div class="title-box col-lg-6">
+          <img class="title-image" src="public/images/IMG_8319-2.jpg" />
+        </div>
+        <div class="title-box col-lg-6">
+          <h1 class="title">Malin.</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+       <div class="about-container">
+        <h1 class="body-title">Over mij</h1>
+        <hr class="featurette-divider">
+
+        <div class="about-box row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Over mij. <span class="sub-title">Mijn professionele, persoonlijke leven.</span></h2>
+            <p class="about-p lead">Ik ben altijd een extraverte, sociale persoon geweest. Ik heb een passie voor werkomgeving en het creëren van een mooie werkomgeving. Daarnaast ben ik een positief en spraakzaam persoon. Ik heb oog voor detail en ben zeer doelgericht. In mijn vrije tijd maak ik graag foto's en bewerk deze met Adobe programma's, zoals Lightroom en Photoshop. Verder sport ik 6 dagen per week en heb een passie voor gamen.</p>
+            <p class="fun-fact lead">Fun fact! Ik spreek 4 talen (Noors, Engels, Zweeds en Nederlands).</p>
+        </div>
+        <div class="col-md-5">
+            <img class="about-picture" src="public/images/imageMe2.jpg" alt="picture_of_self">
+        </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="about-box row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Opleiding en Ervaring. <span class="sub-title">Uit verschillende velden.</span></h2>
+            <p class="about-p lead">
+                Behalve dat ik een full-stack engineer zijn, heb ik een bachelordiploma in algemeen recht behaald aan de Universiteit van Zuidoost-Noorwegen. Daarnaast heb ik een jaar marketing gedaan. Ik heb geweldige ervaring in leiderschap, verkoop en klantenservice, en heb bij voorbeld bij sommige van de grote bedrijven gewerkt, zoals voor Amazon, Scandinavian Airlines en Ikea gewerkt.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img class="about-picture" src="public/images/image4.jpg" alt="picture_of_cup">
+        </div>
+        </div>
+
+       </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+
+        <h1 class="body-title">Werk ervaring en opleiding</h1>
+
+        <!-- Education -->
+        <h2 class="experience-subtitle">Opleiding</h2>
+        <div class="accordion accordion-flush" id="accordionFlushEducation">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Full-Stack Engineer
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushEducation">
+                <div class="accordion-body">
+
+                    <h3 class="experience-h3">Codecademy</h3>
+                    <h5 class="experience-h5"><a href="https://www.codecademy.com/profiles/MalinEliseMartinsen/certificates/5f7e644d833c070013ef47c4" class="edu-link btn btn-white">Afgestudeerd november 2021</a></h5>
+                    
+                    <div class="row">
+                        
+                        <!-- Front-end -->
+                        <div class="feature-box col-lg-6">
+                            <h4 class="body-title experience-h4">Front-end</h4>
+                            <hr class="featurette-divider">
+        
+                            <div class="card card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">HTML</li>
+                                    <li class="list-group-item">CSS</li>
+                                    <li class="list-group-item">BootStrap</li>
+                                    <li class="list-group-item">JavaScript</li>
+                                    <li class="list-group-item">jQuery</li>
+                                    <li class="list-group-item">Web design</li>
+                                  </ul>
+                            </div>
+                        </div>
+
+                        <div class="feature-box col-lg-6">
+                            <h4 class="body-title experience-h4">Back-end</h4>
+                            <hr class="featurette-divider">
+            
+                            <div class="card card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">Git/bash</li>
+                                    <li class="list-group-item">Unix Command Line</li>
+                                    <li class="list-group-item">Node.js</li>
+                                    <li class="list-group-item">Express.js</li>
+                                    <li class="list-group-item">APIs</li>
+                                    <li class="list-group-item">EJS</li>
+                                    <li class="list-group-item">SQL</li>
+                                    <li class="list-group-item">Databases</li>
+                                    <li class="list-group-item">MongoDB</li>
+                                    <li class="list-group-item">Mongoose</li>
+                                    <li class="list-group-item">React.js</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Bachelor in Rechten
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushEducation">
+                <div class="accordion-body">
+                    <div class="row">
+                        <h3 class="experience-h3">Universiteit van Zuidoost-Noorwegen</h3>
+                        <h5 class="experience-h5"><a href="#" class="edu-link btn btn-white">Afgestudeerd juni 2021</a></h5>
+                        
+                        <div class="row">
+                        
+                            <!-- Front-end -->
+                            <div class="feature-box col-lg-6">
+                                <h4 class="body-title experience-h4">Eerste jaar</h4>
+                                <hr class="featurette-divider">
+            
+                                <div class="card card-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Privaatrecht 1</li>
+                                        <li class="list-group-item">Privaatrecht 2</li>
+                                        <li class="list-group-item">Examen Philosophicum <span class="extra-credit"> Extra credit</span></li>
+                                        <li class="list-group-item">Examen Facultatum <span class="extra-credit"> Extra credit</span></li>
+                                      </ul>
+                                </div>
+                            </div>
+    
+                            <div class="feature-box col-lg-6">
+                                <h4 class="body-title experience-h4">Tweede jaar</h4>
+                                <hr class="featurette-divider">
+                
+                                <div class="card card-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Mensenrechten, grondwet en internationaal recht</li>
+                                        <li class="list-group-item">Bestuursrecht, EU/EER recht, milieu bestuursrecht en welzijnsrecht</li>
+                                        <li class="list-group-item">Strafrecht <span class="extra-credit"> Extra credit</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="feature-box col-lg-12">
+                                <h4 class="body-title experience-h4">Derde jaar</h4>
+                                <hr class="featurette-divider">
+                
+                                <div class="card card-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Fiscaal, verplichtingen en goederenrecht 1</li>
+                                        <li class="list-group-item">Fiscaal, verplichtingen en goederenrecht 2</li>
+                                        <li class="list-group-item">Arbeidsrecht 1 <span class="extra-credit"> Extra credit</span></li>
+                                        <li class="list-group-item">Arbeidsrecht 2 <span class="extra-credit"> Extra credit</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Marketing en merkbeheer
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushEducation">
+                  <div class="accordion-body">
+                      <div class="row">
+                          <h3 class="experience-h3">Hogeschool Kristiania</h3>
+                          <h5 class="experience-h5"><a href="#" class="edu-link btn btn-white">Afgestudeerd juni 2017</a></h5>
+                          
+                          <div class="row">
+                          
+                              <!-- Front-end -->
+                              <div class="feature-box col-lg-6">
+                                  <h4 class="body-title experience-h4">Eerste semester</h4>
+                                  <hr class="featurette-divider">
+              
+                                  <div class="card card-body">
+                                      <ul class="list-group">
+                                          <li class="list-group-item">Verkoop en relaties</li>
+                                          <li class="list-group-item">Marketing</li>
+                                          <li class="list-group-item">Markt en gemeenschap</li>
+                                          <li class="list-group-item">Onderhandelen en beïnvloeden</li>
+                                        </ul>
+                                  </div>
+                              </div>
+      
+                              <div class="feature-box col-lg-6">
+                                  <h4 class="body-title experience-h4">Tweede semester</h4>
+                                  <hr class="featurette-divider">
+                  
+                                  <div class="card card-body">
+                                      <ul class="list-group">
+                                          <li class="list-group-item">Marktrecht en ethiek</li>
+                                          <li class="list-group-item">Consumentenpsychologie</li>
+                                          <li class="list-group-item">Organisatiebeheer</li>
+                                          <li class="list-group-item">Product- en prijsstrategie</li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience -->
+        <h2 class="experience-subtitle">Ervaring</h2>
+
+        <!-- IT and developement -->
+        <div class="accordion accordion-flush" id="accordionFlushExperience">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  ICT en Programmeren
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExperience">
+                <div class="accordion-body">
+
+                    <div class="row">
+                        
+                        <!-- Java developer -->
+                        <div class="feature-box col-lg-6">
+                            <h4 class="body-title experience-h4">Java Developer Trainee</h4>
+                            <hr class="featurette-divider">
+        
+                            <div class="card card-body">
+                                <h4 class="body-title experience-h4">Young Capital</h4>
+                                <h5 class="experience-h5">Februari 2022<span class="extra-credit"> huidige</span></h5>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Voltijd</li>
+                                    <li class="employer list-group-item">Werken als Java Developer Trainee bij een klant</li>
+                                  </ul>
+                            </div>
+                        </div>
+
+                        <!-- Technical support -->
+                        <div class="feature-box col-lg-6">
+                            <h4 class="body-title experience-h4">Technische klantenservice</h4>
+
+                            <hr class="featurette-divider">
+            
+                            <div class="card card-body">
+                                <h4 class="body-title experience-h4">EB Customer Service</h4>
+                                <h5 class="experience-h5">Februari 2015 - Augustus 2015</h5>
+
+                                <ul class="list-group">
+                                    <li class="list-group-item">Deeltijd</li>
+                                    <li class="list-group-item">Technische klantenservice voor tv, internet en vaste telefoon</li>
+                                    <li class="list-group-item">Verkoop en facturering</li>
+                                    <li class="list-group-item">Enige hardware-ervaring (routers en mediaconverters)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Leadership -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  Leiderschap
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExperience">
+                <div class="accordion-body">
+                    <div class="row">
+
+                        <!-- Hostess and head of staff  -->
+                        <div class="feature-box col-lg-6">
+                            <h4 class="body-title experience-h4">Gastvrouw en stafmanager</h4>
+                            <hr class="featurette-divider">
+        
+
+                            <div class="card card-body">
+                                <h4 class="body-title experience-h4">Ringerike Zomer Hotel</h4>
+                                <h5 class="experience-h5">Zomer 2009 - 2018</h5>
+                                <ul class="list-group">
+                                    <li class="employer list-group-item">Gasten ontvangen</li>
+                                    <li class="employer list-group-item">Gezicht van het hotel</li>
+                                    <li class="employer list-group-item">Serveerster</li>
+                                    <li class="employer list-group-item">Opleiden van nieuw personeel</li>
+                                    <li class="employer list-group-item">Hoofd kelners en gastvrouw bij bruiloften</li>
+                                  </ul>
+                            </div>
+                        </div>
+
+                        <!-- Shift Supervisor -->
+                        <div class="feature-box col-lg-6">
+                            <h4 class="body-title experience-h4">Shift Supervisor</h4>
+
+                            <hr class="featurette-divider">
+            
+                            <div class="card card-body">
+                                <h4 class="body-title experience-h4">Starbucks</h4>
+                                <h5 class="experience-h5">September 2019 - April 2020</h5>
+
+                                <ul class="list-group">
+                                    <li class="list-group-item">Deeltijd</li>
+                                    <li class="list-group-item">De shift gemanaged</li>
+                                    <li class="list-group-item">Verantwoordelijk voor de medewerkers in ploegendienst</li>
+                                    <li class="list-group-item">Hoofd winkel terwijl Manager (of ass. manager) er niet was</li>
+                                    <li class="list-group-item">Geldafhandeling en afwikkeling</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Customer service and sales -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSix">
+                  <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                    Klantenservice en verkoop
+                  </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExperience">
+                  <div class="accordion-body">
+                      <div class="row">
+  
+                          <!-- Customer service associate  -->
+                          <div class="feature-box col-lg-6">
+                              <h4 class="body-title experience-h4">Customer Service Associate</h4>
+                              <hr class="featurette-divider">
+        
+                              <div class="card card-body">
+                                  <h4 class="body-title experience-h4">Amazon</h4>
+                                  <h5 class="experience-h5">Maart 2021 - Januari 2022</h5>
+                                  <ul class="list-group">
+                                      <li class="employer list-group-item">Voltijd</li>
+                                      <li class="employer list-group-item">Ondersteuning voor detailhandel, accountwijzigingen, AVG en betalingsproblemen</li>
+                                      <li class="employer list-group-item">Ondersteuning via telefoon, e-mail en chat</li>
+                                      <li class="employer list-group-item">Communicatie in het Zweeds en Engels</li>
+                                      <li class="employer list-group-item">Onderdeel van 'Fun Team', activiteiten organiseren voor een betere werkomgeving tijdens de piek</li>
+                                    </ul>
+                              </div>
+                          </div>
+
+                          <!-- Sales consultant -->
+                          <div class="feature-box col-lg-6">
+                            <h4 class="body-title experience-h4">Keukenverkoper</h4>
+
+                            <hr class="featurette-divider">
+            
+                            <div class="card card-body">
+                                <h4 class="body-title experience-h4">Ikea Haarlem</h4>
+                                <h5 class="experience-h5">Augustus 2020 - Maart 2021</h5>
+
+                                <ul class="list-group">
+                                    <li class="list-group-item">Deeltijd</li>
+                                    <li class="list-group-item">Geplande consultatiesessies en drop-ins</li>
+                                    <li class="list-group-item">Verkoop, begeleiding, communicatie en service</li>
+                                    <li class="list-group-item">Werkblad tekenen, ontwerpen en rekenen</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Sales consultant -->
+                        <div class="feature-box col-lg-12">
+                            <h4 class="body-title experience-h4">Keukenverkoper</h4>
+
+                            <hr class="featurette-divider">
+            
+                            <div class="card card-body">
+                                <h4 class="body-title experience-h4">Ikea Slependen</h4>
+                                <h5 class="experience-h5">December 2017 - September 2019</h5>
+
+                                <ul class="list-group">
+                                    <li class="list-group-item">Deeltijd</li>
+                                    <li class="list-group-item">Geplande consultatiesessies en drop-ins</li>
+                                    <li class="list-group-item">Verkoop, begeleiding, communicatie en service</li>
+                                    <li class="list-group-item">Werkblad tekenen, ontwerpen en rekenen</li>
+                                    <li class="list-group-item">Verantwoordelijkheid hebben gehad tijdens het sollicitatieproces</li>
+                                    <li class="list-group-item">Referenties bellen</li>
+                                </ul>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Aviation -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSeven">
+                  <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                    Luchtvaart
+                  </button>
+                </h2>
+                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExperience">
+                  <div class="accordion-body">
+                      <div class="row">
+  
+                          <!-- Hostess and head of staff  -->
+                          <div class="feature-box col-lg-12">
+                              <h4 class="body-title experience-h4">Stewardess</h4>
+                              <hr class="featurette-divider">
+
+                              <div class="card card-body">
+                                  <h4 class="body-title experience-h4">Scandinavian Airlines</h4>
+                                  <h5 class="experience-h5">Februari 2016 - Juni 2017</h5>
+                                  <ul class="list-group">
+                                      <li class="employer list-group-item">Voltijd en deeltijd</li>
+                                      <li class="employer list-group-item">Verantwoordelijk voor veiligheid, omgaan met noodsituaties en eerste hulp</li>
+                                      <li class="employer list-group-item">Omgaan met onhandelbare passagiers, serveersters, verkoop en klantcontact</li>
+                                      <li class="employer list-group-item">Fungeerde als senior cabinepersoneel</li>
+                                    </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <!-- Programming languages -->
+    <section id="features">
+      <div class="row">
+        <h1 class="body-title">Programmeertalen</h1>
+
+        <!-- Java -->
+        <div class="feature-box col-lg-4">
+          <i class="icon fab fa-java fa-4x"></i>
+          <h3>Java</h3>
+          <p>
+            <a
+              class="feature-btn btn btn-dark"
+              data-bs-toggle="collapse"
+              href="#collapseJava"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseJava"
+            >
+              Meer informatie
+            </a>
+          </p>
+          <div class="collapse" id="collapseJava">
+            <div class="card card-body">
+              <ul class="list-group">
+                <li class="list-group-item">Fundamentals</li>
+                <li class="list-group-item">Object georiënteerd programmeren</li>
+                <li class="list-group-item">
+                  Exception handling en debugging
+                </li>
+                <li class="list-group-item">Unit testing en streams</li>
+                <li class="list-group-item">Inheritance en polymorphism</li>
+                <li class="list-group-item">Concurrency en multithreading</li>
+              </ul>
+              <h5 class="diploma-title">Diploma's</h2>
+                <ul class="card card-body">
+                    <li class="list-group-item">
+                        <a
+                          target="_blank"
+                          class="certificate-link"
+                          href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-aa7b453e-2d9c-4c92-9567-c792e403dc28.pdf"
+                          >Udemy diploma</a
+                        >
+                      </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="feature-box col-lg-4">
+          <i class="icon fab fa-js-square fa-4x"></i>
+          <h3>JavaScript</h3>
+          <p>
+            <a
+              class="feature-btn btn btn-dark"
+              data-bs-toggle="collapse"
+              href="#collapseJavaScript"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseJavaScript"
+            >
+              Meer informatie
+            </a>
+          </p>
+          <div class="collapse" id="collapseJavaScript">
+            <div class="card card-body">
+              <ul class="list-group">
+                <li class="list-group-item">Fundamentals</li>
+                <li class="list-group-item">DOM en Events</li>
+                <li class="list-group-item">JavaScript Engine en runtime</li>
+                <li class="list-group-item">
+                    Data structuren, Modern Operators
+                </li>
+                <li class="list-group-item">Geavanceerd DOM en Events</li>
+                <li class="list-group-item">
+                    Object georiënteerd programmeren</li>
+                <li class="list-group-item">
+                  OOP, Geolocation en External Libraries
+                </li>
+                <li class="list-group-item">
+                  Asynchronous JavaScript: Promises, Async/Await en AJAX
+                </li>
+                <li class="list-group-item"></li>
+              </ul>
+              <h5 class="diploma-title">Diploma's</h2>
+              <ul class="card card-body">
+                <li class="on-going list-group-item">Udemy cursus aan de gang</li>
+                <li class="list-group-item">
+                  <a
+                    target="_blank"
+                    class="certificate-link"
+                    href="https://www.codecademy.com/profiles/MalinEliseMartinsen/certificates/5f7e644d833c070013ef47c4"
+                    >Codecademy diploma</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- HTML -->
+        <div class="feature-box col-lg-4">
+          <i class="icon fab fa-html5 fa-4x"></i>
+          <h3>HTML</h3>
+          <p>
+            <a
+              class="feature-btn btn btn-dark"
+              data-bs-toggle="collapse"
+              href="#collapseHTML"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseHTML"
+            >
+              Meer informatie
+            </a>
+          </p>
+          <div class="collapse" id="collapseHTML">
+            <div class="card card-body">
+              <ul class="list-group">
+                <li class="list-group-item">HTML Fundamentals</li>
+                <li class="list-group-item">
+                  Layouts (Floats, Flexbox and Grid)
+                </li>
+                <li class="list-group-item">
+                    Regels en kader voor webdesign</li>
+                <li class="list-group-item">Bootstrap</li>
+              </ul>
+              <h5 class="diploma-title">Diploma's</h2>
+                <ul class="card card-body">
+                    <li class="list-group-item">
+                        <a
+                          target="_blank"
+                          class="certificate-link"
+                          href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-82b8946b-217e-4280-b469-91ca8b716868.pdf"
+                          >Udemy diploma</a
+                        >
+                      </li>
+                    <li class="list-group-item">
+                    <a
+                      target="_blank"
+                      class="certificate-link"
+                      href="https://www.codecademy.com/profiles/MalinEliseMartinsen/certificates/5f7e644d833c070013ef47c4"
+                      >Codecademy diploma</a
+                    >
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- CSS -->
+        <div class="feature-box col-lg-4">
+          <i class="icon fab fa-css3-alt fa-4x"></i>
+          <h3>CSS</h3>
+          <p>
+            <a
+              class="feature-btn btn btn-dark"
+              data-bs-toggle="collapse"
+              href="#collapseCSS"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseCSS"
+            >
+              Meer informatie
+            </a>
+          </p>
+          <div class="collapse" id="collapseCSS">
+            <div class="card card-body">
+              <ul class="list-group">
+                <li class="list-group-item">CSS Fundamentals</li>
+                <li class="list-group-item">
+                  Layouts (Floats, Flexbox and Grid)
+                </li>
+                <li class="list-group-item">
+                    Regels en kader voor webdesign</li>
+                <li class="list-group-item">Bootstrap</li>
+              </ul>
+              <h5 class="diploma-title">Diploma's</h2>
+                <ul class="card card-body">
+                    <li class="list-group-item">
+                        <a
+                          target="_blank"
+                          class="certificate-link"
+                          href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-82b8946b-217e-4280-b469-91ca8b716868.pdf"
+                          >Udemy diploma</a
+                        >
+                      </li>
+                    <li class="list-group-item">
+                    <a
+                      target="_blank"
+                      class="certificate-link"
+                      href="https://www.codecademy.com/profiles/MalinEliseMartinsen/certificates/5f7e644d833c070013ef47c4"
+                      >Codecademy diploma</a
+                    >
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Python -->
+        <!-- <div class="feature-box col-lg-4"> NOT STARTED PYTHON YET
+          <i class="icon fab fa-python fa-4x"></i>
+          <h3>Python</h3>
+          <p>
+            <a
+              class="feature-btn btn btn-dark"
+              data-bs-toggle="collapse"
+              href="#collapsePython"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapsePython"
+            >
+              Meer informatie
+            </a>
+          </p>
+
+          <div class="collapse" id="collapsePython">
+            <div class="card card-body">
+              <ul class="list-group">
+                <li class="list-group-item">Python Object en Data Structure Basics</li>
+                <li class="list-group-item">Python Comparison Operators</li>
+                <li class="list-group-item">Python Statements</li>
+                <li class="list-group-item">Methods en Functions</li>
+                <li class="list-group-item">Object-Oriented Programming</li>
+                <li class="list-group-item">Modules en Packages</li>
+                <li class="list-group-item">Errors en Exceptions Handling</li>
+                <li class="list-group-item">Python Decorators</li>
+                <li class="list-group-item">Python Generators</li>
+                <li class="list-group-item">Geavanceerd Python Modules</li>
+                <li class="list-group-item">Web Scraping met Python</li>
+                <li class="list-group-item">Werken met Images met Python</li>
+                <li class="list-group-item">Werken met PDFs en Spreadsheet CSV Files</li>
+                <li class="list-group-item">Emails met Python</li>
+                <li class="list-group-item">Geavanceerd Python Objects en Data Structures</li>
+              </ul>
+              <h5 class="diploma-title">Diploma's</h2>
+            <ul class="card card-body">
+                <li class="on-going list-group-item">Udemy cursus aan de gang</li>
+            </ul>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- Node.js -->
+        <div class="feature-box col-lg-4">
+          <i class="icon fab fa-node fa-4x"></i>
+          <h3>Node.js</h3>
+          <p>
+            <a
+              class="feature-btn btn btn-dark"
+              data-bs-toggle="collapse"
+              href="#collapseNode"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseNode"
+            >
+              Meer informatie
+            </a>
+          </p>
+          <div class="collapse" id="collapseNode">
+            <div class="card card-body">
+              <ul class="list-group">
+                <li class="list-group-item">NPM</li>
+                <li class="list-group-item">Express</li>
+                <li class="list-group-item">MongoDB</li>
+                <li class="list-group-item">Mongoose</li>
+                <li class="list-group-item">Body-Parser</li>
+              </ul>
+              <h5 class="diploma-title">Diploma's</h2>
+                <ul class="card card-body">
+                    <li class="on-going list-group-item">Udemy cursus aan de gang</li>
+                    <li class="list-group-item">
+                     <a
+                    target="_blank"
+                    class="certificate-link"
+                    href="https://www.codecademy.com/profiles/MalinEliseMartinsen/certificates/5f7e644d833c070013ef47c4"
+                    >Codecademy diploma</a
+                     >
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- React.js -->
+        <div class="feature-box col-lg-4">
+          <i class="icon fab fa-react fa-4x"></i>
+          <h3>React.js</h3>
+          <p>
+            <a
+              class="feature-btn btn btn-dark"
+              data-bs-toggle="collapse"
+              href="#collapseReact"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseReact"
+            >
+              Meer informatie
+            </a>
+          </p>
+          <div class="collapse" id="collapseReact">
+            <div class="card card-body">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  JSX, code practice, expressions, attributes
+                </li>
+                <li class="list-group-item">Stylen van React elementen</li>
+                <li class="list-group-item">React componenten</li>
+                <li class="list-group-item">React props</li>
+                <li class="list-group-item">React DevTools</li>
+                <li class="list-group-item">Gegevens toewijzen aan componenten</li>
+                <li class="list-group-item">Conditional Rendering</li>
+                <li class="list-group-item">React Hooks</li>
+                <li class="list-group-item">Event Handling</li>
+                <li class="list-group-item">React Forms</li>
+                <li class="list-group-item">Veranderen Complex State</li>
+                <li class="list-group-item">Beheer van een Component Tree</li>
+                <li class="list-group-item">React Dependencies</li>
+              </ul>
+              <ul class="card card-body">
+                <h5 class="diploma-title">Diploma's</h2>
+                <li class="on-going list-group-item">Udemy cursus aan de gang</li>
+                <li class="list-group-item">
+                  <a
+                    target="_blank"
+                    class="certificate-link"
+                    href="https://www.codecademy.com/profiles/MalinEliseMartinsen/certificates/5f7e644d833c070013ef47c4"
+                    >Codecademy diploma</a
+                  >
+                 </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- SQL -->
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-database fa-4x"></i>
+          <h3>SQL</h3>
+          <p>
+            <a
+              class="feature-btn btn btn-dark"
+              data-bs-toggle="collapse"
+              href="#collapseSQL"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseSQL"
+            >
+              Meer informatie
+            </a>
+          </p>
+          <div class="collapse" id="collapseSQL">
+            <div class="card card-body">
+              <ul class="list-group">
+                <li class="list-group-item">Statements and Fundamentals</li>
+                <li class="list-group-item">GROUP BY statements</li>
+                <li class="list-group-item">JOINS</li>
+                <li class="list-group-item">Geavanceerd commands</li>
+                <li class="list-group-item">Databases en tabellen maken</li>
+                <li class="list-group-item">
+                  Conditional Expressions en Procedures
+                </li>
+                <li class="list-group-item">PostGreSQL met Python</li>
+              </ul>
+              <ul class="card card-body">
+                <h5 class="diploma-title">Diploma's</h2>
+                <li class="on-going list-group-item">Udemy cursus aan de gang</li>
+                <li class="list-group-item">
+                  <a
+                    target="_blank"
+                    class="certificate-link"
+                    href="https://www.codecademy.com/profiles/MalinEliseMartinsen/certificates/5f7e644d833c070013ef47c4"
+                    >Codecademy diploma</a
+                  >
+                 </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <p class="footer-text">© 2022</p>
+      <a class="social-icon btn" target="_blank" href="https://www.linkedin.com/in/malin-elise-martinsen-595618137/"><i class="fab fa-linkedin-in"></i></a>
+      <a class="social-icon btn" target="_blank" href="https://github.com/malinemartinsen"><i class="fab fa-github"></i></a>
+      <!-- <i class="social-icon fas fa-envelope"></i> ** Will come when I'm done with back-end--> 
+    </footer>
   </body>
 </html>
