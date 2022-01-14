@@ -11,6 +11,10 @@ body {
   padding: 7% 0;
 }
 
+.sub-title {
+  color: rgb(250, 212, 221);
+}
+
 /* Navigation bar */
 
 .navbar {
@@ -45,7 +49,7 @@ body {
   text-align: center;
 }
 
-.title-picture {
+.title-image {
   width: 70%;
   height: auto;
   margin: 5% 0;
@@ -139,10 +143,7 @@ body {
   color: rgba(240, 128, 128, 0.493);
 }
 
-/* About section */
-/* #about {
-  background-color: rgba(240, 128, 128, 0.493);
-} */
+/* About */
 
 .about-container {
   padding: 7% 15%;
@@ -159,12 +160,118 @@ body {
   padding: 0 5%;
 }
 
-.sub-title {
-  color: rgb(250, 212, 221);
-}
-
 .about-p {
   font-family: "roboto", sans-serif;
   line-height: 1.5;
   text-align: justify;
+}
+
+.fun-fact {
+  font-family: "roboto", sans-serif;
+  color: grey;
+  font-style: italic;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* Experience */
+#experience {
+  padding: 7% 15%;
+  background-color: rgba(240, 128, 128, 0.493);
+  color: white;
+}
+
+.experience-h3 {
+  font-size: 1.5rem;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.experience-h4 {
+  font-size: 1.3rem;
+  padding: 10px 0;
+}
+
+.experience-h5 {
+  font-size: 0.9rem;
+  color: grey;
+  padding: 0;
+  text-align: center;
+}
+
+.experience-subtitle {
+  padding: 25px 0 10px 0;
+}
+
+.accordion-body {
+  text-align: center;
+}
+
+.accordion-button,
+.accordion-button::after,
+.accordion-button:active,
+.accordion-button:focus,
+.accordion-button:visited {
+  color: black;
+}
+
+.accordion-button:hover {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+.accordion {
+  color: black;
+  margin-bottom: 5%;
+}
+
+/* Cards */
+.card-list {
+  list-style: none;
+  text-decoration: none;
+  text-align: left;
+}
+
+.card-text {
+  text-align: left;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.edu-card {
+  width: 90%;
+  margin: 5%;
+  padding: 0;
+}
+
+.edu-link {
+  text-align: center;
+  text-decoration: none;
+  color: lightgray;
+}
+
+.edu-link:hover {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+.extra-credit {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: grey;
+  font-weight: 200;
+}
+
+.education1-card {
+  height: 490px;
+}
+
+.education2-card {
+  height: 230px;
+}
+
+.employer {
+  font-style: bold;
 }
