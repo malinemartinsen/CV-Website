@@ -1,11 +1,8 @@
-# CV-Website
-
 # Malin's CV website
+This website is for my own personal use, to display my experience, education and achievements. It is written in both English and Dutch as my workenvironment is in the Netherlands. It's for now a static frontend site.
 
-The website is my personal CV displayed as a website. It's written using HTML, CSS, JavaScript through Bootstrap5.
-
-## Contributing
-Pull requests regarding the code is welcome (not regarding content, considering it's a personal website). For major changes, please open an issue first to discuss what you would like to change.
+## Language
+The website is created using HTML, CSS and JavaScript (mainly through Bootstrap5).
 
 ## Updates
-Updates will follow as I progress in my education.
+As my skills progress, I intend to update the website (content wise), as well as create it from the server side, once my skills in Node.js and backend progress.
